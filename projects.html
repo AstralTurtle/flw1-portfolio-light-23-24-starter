@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Title</title>
 
     <!-- link CSS stylesheet below -->
-    
-    
+
+
     <!-- imports JS file -->
     <script defer src="script.js"></script>
 </head>
+
 <body>
     <!-- Add navbar to link all html pages. -->
     <!-- 
@@ -22,10 +24,24 @@
         - Screenshot of project 
     -->
     <h1>
-      Projects
+        Projects
     </h1>
     <div>
-      <p>This is a blank template.</p>
+        <select id="project-dropdown">
+            <option value="">Select A Project</option>
+            <option value="0">Sky Full Of Rotating Stars</option>
+        </select>
     </div>
-  </body>
+
+    <div id="sforsDiv">
+        <iframe id="sfors" src="https://itch.io/embed-upload/8740303?color=000000" allowfullscreen="" width="1080"
+            height="740" hidden frameborder="0"><a href="https://astralturtle329.itch.io/planetsim">Play Project #1 - A
+                Sky Full of
+                Rotating
+                Stars on itch.io</a></iframe>
+    </div>
+
+    <script src="projects.js"></script>
+</body>
+
 </html>
