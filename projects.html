@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Update Title</title>
 
     <!-- link CSS stylesheet below -->
-
+    <link rel="stylesheet" href="style.css" />
 
     <!-- imports JS file -->
     <script defer src="script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Add navbar to link all html pages. -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="projects.html">My Projects</a>
+    </nav>
     <!-- 
         Include at least 4 coding projects. For each project, include:
         - Project name
@@ -23,25 +28,38 @@
         - Short description of project
         - Screenshot of project 
     -->
-    <h1>
-        Projects
-    </h1>
-    <div>
-        <select id="project-dropdown">
-            <option value="">Select A Project</option>
-            <option value="0">Sky Full Of Rotating Stars</option>
-        </select>
-    </div>
+    <h1>Projects</h1>
+    <div id="projects">
+      <div class="projectCard">
+        <h3>Sky Full of Rotating Stars</h3>
+        <img src="" alt="" />
+        <div class="cardContent">
+          <button>
+            <a
+              class="projectButton"
+              href="https://astralturtle329.itch.io/planetsim"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See the project</a
+            >
+          </button>
 
-    <div id="sforsDiv">
-        <iframe id="sfors" src="https://itch.io/embed-upload/8740303?color=000000" allowfullscreen="" width="1080"
-            height="740" hidden frameborder="0"><a href="https://astralturtle329.itch.io/planetsim">Play Project #1 - A
-                Sky Full of
-                Rotating
-                Stars on itch.io</a></iframe>
+          <button>
+            <a
+              href="https://github.com/AstralTurtle/SkyFullofRotatingStars"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See the source code</a
+            >
+          </button>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut natus
+            fugiat at enim voluptatibus dolorem soluta iste doloribus.
+          </p>
+        </div>
+      </div>
     </div>
 
     <script src="projects.js"></script>
-</body>
-
+  </body>
 </html>
