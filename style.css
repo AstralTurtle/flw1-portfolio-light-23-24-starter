@@ -10,7 +10,11 @@ nav {
 }
 
 /* Format the size of all images. */
-
+img {
+    width: 10%;
+    height: auto;
+    margin: 2%;
+}
 /* Style the font color. */
 
 /* Style the background with a color or image. */
@@ -31,7 +35,7 @@ body {
 
 }
 
-h1 {
+h1,h2,h3 {
     color: white;
     text-align: center;
 }
@@ -65,6 +69,8 @@ h1 {
 
 #headshot {
     border-radius: 30%;
+    width: 25%;
+    height: auto;
 }
 
 #photoDiv {
@@ -81,4 +87,22 @@ h1 {
 #skillsDiv>img {
     width: 20%;
     height: 20%;
+}
+.contact {
+   
+}
+
+.contact > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
