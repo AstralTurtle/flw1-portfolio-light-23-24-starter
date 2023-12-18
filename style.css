@@ -1,12 +1,12 @@
 /* Add flexbox to the navbars. */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  text-decoration: none;
-  width: 100%;
-  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    text-decoration: none;
+    width: 100%;
+
 }
 
 /* Format the size of all images. */
@@ -15,51 +15,70 @@ nav {
 
 /* Style the background with a color or image. */
 body {
-  background-color: black;
-  background-image: url("desktop-1920x1080.jpg")
+    background-color: black;
+    background-image: url("stars.jpg");
+    margin: 0;
 }
+
 /* Adjust the spacing of your page. */
 
 /* Adjust the positioning of your page.  */
 
 #projects {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+
 
 }
 
 h1 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .projectCard {
-  background-color: white;
-  
-  height: auto;
-  border: 10px grey;
-  display: flex;
-  flex-direction: column;
-  margin: 2.5%;
-  padding: 2.5%; 
+    background-color: white;
+
+    height: auto;
+    border: 10px grey;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5%;
+    padding: 2.5%;
 }
 
 .cardContent {
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .projectButton {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-.projectCard > h3 {
-  text-align: center;
+.projectCard>h3 {
+    text-align: center;
 }
 
+#headshot {
+    border-radius: 30%;
+}
 
+#photoDiv {
+    display: flex;
+    justify-content: center;
+}
 
+#skillsDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#skillsDiv>img {
+    width: 20%;
+    height: 20%;
+}
