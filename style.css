@@ -19,8 +19,13 @@ img {
 
 /* Style the background with a color or image. */
 body {
+
     background-color: black;
-    background-image: url("stars.jpg");
+    background-image: url("spacebg.png");
+    background-attachment: fixed;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     margin: 0;
 }
 
@@ -69,8 +74,8 @@ h1,h2,h3 {
 
 #headshot {
     border-radius: 30%;
-    width: 25%;
-    height: auto;
+    width: auto;
+    height: 400px;
 }
 
 #photoDiv {
@@ -105,4 +110,14 @@ h1,h2,h3 {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+
+#firstName {
+    padding-right: 10%;
+    font-size: 150px;
+
+}
+#lastName {
+   padding-left: 10%;
+    font-size: 150px;
 }
