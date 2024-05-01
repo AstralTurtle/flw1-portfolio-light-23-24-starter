@@ -1,13 +1,4 @@
-/* Add flexbox to the navbars. */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    text-decoration: none;
-    width: 100%;
 
-}
 
 /* Format the size of all images. */
 img {
@@ -27,6 +18,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
     margin: 0;
+}
+
+#parallax {
+    background-image: url("spacebg2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Adjust the spacing of your page. */
